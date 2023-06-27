@@ -1,20 +1,23 @@
 {
   "name": "@yawuxi/eslint-config",
-  "version": "1.1.1",
+  "version": "1.2.2",
   "description": "ESLint + Prettier configuration for ReactJs (NextJs)",
-  "main": "index.js",
+  "main": "./index.js",
   "peerDependencies": {
     "eslint": "^8.43.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "@next/eslint-plugin-next": "^13.4.7"
   },
   "keywords": [
-    "config",
-    "yawuxi",
     "eslint",
     "eslintconfig",
-    "prettier"
+    "prettier",
+    "reacteslint",
+    "nexteslint",
+    "config",
+    "yawuxi"
   ],
   "author": "Dmytro <ryliov.work@gmail.com> Rylov",
   "license": "MIT",
@@ -25,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/yawuxi/eslint-config/issues"
   },
-  "homepage": "https://github.com/yawuxi/eslint-config",
-  "dependencies": {
-    "@next/eslint-plugin-next": "^13.4.7"
-  }
+  "homepage": "https://github.com/yawuxi/eslint-config"
 }

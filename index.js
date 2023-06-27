@@ -1,9 +1,9 @@
-import jsRules from "./lib/jsRules";
-import reactRules from "./lib/reactRules";
-import importRules from "./lib/importRules";
+const jsRules = require("./lib/jsRules");
+const reactRules = require("./lib/reactRules");
+const importRules = require("./lib/importRules");
 
 module.exports = {
-  ignorePatterns: ["node_modules", "dist"],
+  ignorePatterns: ["node_modules", "dist", "build", "next"],
   env: {
     browser: true,
     es2021: true,
