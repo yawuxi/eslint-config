@@ -22,7 +22,11 @@ module.exports = {
       version: "detect",
     },
   },
-  extends: ["plugin:react/jsx-runtime", "next"],
+  extends: [
+    "plugin:react/jsx-runtime",
+    "next",
+    "plugin:@next/next/recommended",
+  ],
   rules: {
     ...jsRules,
     ...reactRules,
