@@ -2,7 +2,7 @@ import jsRules from "./lib/jsRules";
 import reactRules from "./lib/reactRules";
 import importRules from "./lib/importRules";
 
-export default {
+module.exports = {
   ignorePatterns: ["node_modules", "dist"],
   env: {
     browser: true,
