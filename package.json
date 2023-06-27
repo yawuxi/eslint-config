@@ -2,7 +2,7 @@
   "name": "@yawuxi/eslint-config",
   "type": "module",
   "version": "1.0.0",
-  "description": "ESLint configuration for Next.js",
+  "description": "ESLint + Prettier configuration for ReactJs (NextJs)",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -14,7 +14,12 @@
   ],
   "author": "Dmytro <ryliov.work@gmail.com> Rylov",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.43.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawuxi/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/yawuxi/eslint-config/issues"
+  },
+  "homepage": "https://github.com/yawuxi/eslint-config"
 }
