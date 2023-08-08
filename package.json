@@ -1,6 +1,6 @@
 {
   "name": "@yawuxi/eslint-config",
-  "version": "1.3.24",
+  "version": "1.3.25",
   "description": "ESLint + Prettier configuration for ReactJs (NextJs)",
   "main": "./index.js",
   "peerDependencies": {
